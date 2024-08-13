@@ -59,7 +59,7 @@ interface WorkspaceObject{
   workspacecode:String
 }
 function reload(){
-  axios.get('http://localhost:1080/api/getworkspaces')
+  axios.get('https://proide-codeeditor.onrender.com/api/getworkspaces')
   .then((response)=>{
     response.data.map((i:WorkspaceObject)=>{
       if(i.workspaceid==location.state.id){
@@ -84,7 +84,7 @@ function reload(){
     reload()
   },[])
   async function savecode(){
-    axios.put('http://localhost:1080/api/updateworkspace',{
+    axios.put('https://proide-codeeditor.onrender.com/api/updateworkspace',{
       workspaceid:location.state.id,
       workspacecode:code
     }).then((res)=>{
