@@ -46,7 +46,7 @@ function Homepage(){
     return obj
    }
     async function createworkspacenameval(data:any){
-       return axios.post('http://localhost:1080/api/createworkspace', data,{
+       return axios.post('https://proide-codeeditor.onrender.com/api/createworkspace', data,{
         headers: {
                 'Content-Type': 'application/json',
                 
@@ -58,7 +58,7 @@ function Homepage(){
             })
     }
     function getworkspaces(){
-        axios.get('http://localhost:1080/api/getworkspaces')
+        axios.get('https://proide-codeeditor.onrender.com/api/getworkspaces')
         .then((response)=>{
             setboxworkspaces(response.data)
             console.log(response.data)
