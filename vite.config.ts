@@ -7,7 +7,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api/': {
-        target: 'http://localhost:1080'
+        target: 'https://proide-codeeditor.onrender.com'
       }
     }
   } 
