@@ -2,7 +2,9 @@
 Live link of the complete full stack project-https://main--proide.netlify.app/
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are ![Screenshot (36)](https://github.com/user-attachments/assets/cff87c91-e854-42b3-8171-0c0ef4cb2fb7)
+SCREENSHOTS
+
+ ![Screenshot (36)](https://github.com/user-attachments/assets/cff87c91-e854-42b3-8171-0c0ef4cb2fb7)
 available:![Screenshot (37)](https://github.com/user-attachments/assets/08c02d27-b74d-4610-a748-f1c60cd0d730)
 ![Screenshot (38)](htt![Screenshot (39)](https://github.com/user-attachments/assets/36fe4298-322f-487a-b77f-aefbc1d9314b)
 ps://github.com/user-attachments/
